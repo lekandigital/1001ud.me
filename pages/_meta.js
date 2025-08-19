@@ -1,5 +1,5 @@
 export default {
-  index: "Introduction",
+  intro: "Introduction",
   another: "Another Page",
   advanced: "Advanced (A Folder)",
   about: {
