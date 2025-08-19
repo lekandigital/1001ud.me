@@ -1,0 +1,17 @@
+
+> nextra-docs-template@0.0.1 build
+> next build
+
+   Linting and checking validity of types ...
+Failed to compile.
+
+./node_modules/@types/d3-dispatch/index.d.ts:91:5
+Type error: Type parameter declaration expected.
+
+[0m [90m 89 | [39m    [33mThis[39m [36mextends[39m object[33m,[39m[0m
+[0m [90m 90 | [39m    [33mEventMap[39m [36mextends[39m [33mRecord[39m[33m<[39m[33mEventNames[39m[33m,[39m any[][33m>[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 91 | [39m    [36mconst[39m [33mEventNames[39m [36mextends[39m keyof any [33m=[39m keyof [33mEventMap[39m[33m,[39m[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 92 | [39m[33m>[39m([0m
+[0m [90m 93 | [39m    [33m...[39mtypes[33m:[39m [33mEventNames[39m[][0m
+[0m [90m 94 | [39m)[33m:[39m [33mDispatch[39m[33m<[39m[33mThis[39m[33m,[39m [33mEventMap[39m[33m>[39m[33m;[39m[0m
